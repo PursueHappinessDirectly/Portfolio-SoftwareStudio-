@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,100,500,700' rel='stylesheet' type='text/css'>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+
+
+<body>   
+	<div class="header"> 
+  	<div class="container"> 
+    	<div class="row"> 
+      	<div class="menu col-xs-8"> 
+        	<ul> 
+          	<li><a href=”#”>Welcome</a></li>
+          	<li><a href=”#”>Portfolio</a></li>
+          	<li><a href=”#”>Blog</a></li> 
+          	<li><a href=”#”>About</a></li>
+          	<li><a href=”#”>Contact</a></li>
+        	</ul> 
+      	</div> 
+      	<div class="name col-xs-4"> 
+        	<h1>Liang Tan</h1> 
+      	</div> 
+   	 </div> 
+ 	 </div> 
+	</div> 
+  
+  <div class="main">
+    <div class="jumbotron">
+      <div class="name col-xs-8"> 
+      	<h2>Hello, my name is Liang Tan. Wanna know me more? Go ahead and explore!</h2>
+      </div>
+      <div class="name col-xs-4">
+      	<a class="btn" href="#">Explore</a>  
+      </div>  
+    </div>
+  </div> 
+  
+  
+  <%= yield %>
+  <div class="footer">
+  	<div class="container">
+    	<ul class="social_media">
+      	<li>
+          <div class="github">
+          	<a class="github" href="#"></a>
+          </div> 
+        </li>
+        <li>
+        	<div class="facebook">
+          	<a class="github" href="#"></a>
+        	</div>
+        </li>
+        <li>
+        	<div class="linkedin">
+          	<a class="github" href="#"></a>
+        	</div>
+        </li>
+    	</ul>
+    		<p>&copy; 2015 Liang Tan</p>
+  	</div>
+	</div>
+</body>
+</html>
