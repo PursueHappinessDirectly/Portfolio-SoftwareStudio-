@@ -52,32 +52,7 @@
   display:inline-block;
   height:24px;
   margin:0 0 0 10px;
-  text-align:left;
-  text-indent:-9999px;
   width:24px
-}
-
-.github {
-	background: url("https://dl.dropboxusercontent.com/u/162995282/github.png") center center;
-  width: 30px;
-  height: 30px;
-	background-size: cover;
-}
-
-
-.linkedin{
-	background: url("https://dl.dropboxusercontent.com/u/162995282/linkedin.png") center center;
-  width: 30px;
-  height: 30px;
-	background-size: cover;
-}
-
-
-.facebook{
-	background: url("https://dl.dropboxusercontent.com/u/162995282/facebook.png") center center;
-  width: 30px;
-  height: 30px;
-	background-size: cover;
 }
 
 a.btn{
@@ -95,10 +70,6 @@ a.btn{
   min-height: 800px;
 }
 
-.main{
-  width:100%;
-}
-
 .hvr-fade {
   display: inline-block;
   vertical-align: middle;
@@ -114,8 +85,6 @@ a.btn{
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
 }
-
- // #2098d1
 
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
   background-color: rgba(255,0,0,0.7);
